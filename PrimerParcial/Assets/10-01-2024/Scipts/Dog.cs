@@ -24,9 +24,10 @@ public class Dog : Animal
     ///the base class "Animal"
     ///Use:
     /// </summary>
-    void override void move()
+   /* void override void move()
     {
         base.move();
     }
+   */
 
 }
