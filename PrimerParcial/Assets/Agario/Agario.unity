@@ -120,6 +120,59 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &341913686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 341913688}
+  - component: {fileID: 341913687}
+  m_Layer: 0
+  m_Name: SimpleSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &341913687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341913686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e3c75a7f530ce4795a1ee52158753e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefabs:
+  - {fileID: 8157142267345550821, guid: 91ebfb7ba0a5e2147b67a94bd6325029, type: 3}
+  - {fileID: 8214140354453626523, guid: e47f1aafb0684ce4bb6640dd6ff16f2d, type: 3}
+  - {fileID: 3667070473585774687, guid: 127b0a4773a2e964e8c695e95966af2d, type: 3}
+  RoundCount: 5
+  TimeBetweenRounds: 3
+  SpawnArea: 18
+  currentTime: 0
+  currentRound: 0
+--- !u!4 &341913688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341913686}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.12, y: -0.12280649, z: 0.06272486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &797179074
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,3 +506,4 @@ SceneRoots:
   - {fileID: 1088122748}
   - {fileID: 2070554031}
   - {fileID: 797179077}
+  - {fileID: 341913688}
