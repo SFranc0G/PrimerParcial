@@ -83,7 +83,7 @@ public class PersonajeBase : MonoBehaviour
 
             if(!heroeFuerte.isDead && !caballero.isDead)
             {
-                if (heroeFuerte.GetHealth() >=51)
+                if (heroeFuerte.GetHealth() >= 51)
                 {
                     float combatResult = heroeFuerte.getHability() -caballero.getDamage();
 
